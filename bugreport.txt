@@ -1,0 +1,14 @@
+ID: 
+Summary:
+Discription:
+Project:
+Steps to reproduce:
+Actual result:
+Expected result:
+Severity:
+Priority:
+Status:
+Environment:
+Author:
+Assingned to:
+Attachement: 
