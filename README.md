@@ -52,7 +52,7 @@ Branch : master
     - Кликнуть по кнопке New pull request  
     - Выбрать ветки: `base: master -> compare: bugreports`  
     - Нажать на кнопку Create pull request
-    - Подтвердить слияние веток
+    - Подтвердить слияние веток (Merge and Confirm)
 6. Запушить main на внешний репозиторий.  
     `git pull`
 7. В ветке CheckLists набросать структуру чек листа.  
@@ -87,6 +87,6 @@ Branch : master
     - Кликнуть по кнопке New pull request  
     - Выбрать ветки: `base: master -> compare: checklists`  
     - Нажать на кнопку Create pull request
-    - Подтвердить слияние веток
+    - Подтвердить слияние веток (Merge and Confirm)
 11. Синхронизировать Внешнюю и Локальную ветки Main  
     `git pull`
