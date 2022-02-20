@@ -24,14 +24,25 @@ Branch : master
     `git push -u origin master`  
     `git push origin --all`  
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  
-    `git checkout bugreports`
+    `git checkout bugreports`  
     `vim bugreport.txt`
     ```
     ID: 
     Summary:
     Discription:
-    
+    Project:
+    Steps to reproduce:
+    Actual result:
+    Expected result:
+    Severity:
+    Priority:
+    Status:
+    Environment:
+    Author:
+    Assingned to:
+    Attachement: 
     ```
+    `Esc :wq`  
 4. Запушить структуру багрепорта на внешний репозиторий
 5. Вмержить ветку Bag Reports в Main
 6. Запушить main на внешний репозиторий.
