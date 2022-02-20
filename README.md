@@ -44,6 +44,9 @@ Branch : master
     ```
     `Esc :wq`  
 4. Запушить структуру багрепорта на внешний репозиторий
+    `git add .`  
+    `git commit -m "Added bugreport.txt"`  
+    `git push`  
 5. Вмержить ветку Bag Reports в Main
 6. Запушить main на внешний репозиторий.
 7. В ветке CheckLists набросать структуру чек листа.
