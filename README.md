@@ -43,12 +43,18 @@ Branch : master
     Attachement: 
     ```
     `Esc :wq`  
-4. Запушить структуру багрепорта на внешний репозиторий
+4. Запушить структуру багрепорта на внешний репозиторий  
     `git add .`  
     `git commit -m "Added bugreport.txt"`  
     `git push`  
-5. Вмержить ветку Bag Reports в Main
-6. Запушить main на внешний репозиторий.
+5. Вмержить ветку Bag Reports в Main  
+    - На GitHub-e открыть вкладку Pull requests
+    - Кликнуть по кнопке New pull request  
+    - Выбрать ветки: `base: master -> compare: bugreports`  
+    - Нажать на кнопку Create pull request
+    - Подтвердить слияние веток
+6. Запушить main на внешний репозиторий.  
+    `git pull`
 7. В ветке CheckLists набросать структуру чек листа.
 8. Запушить структуру на внешний репозиторий
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
